@@ -14,6 +14,6 @@ public class PemilihanBilangan27 {
         {
             System.out.println("Angka " + angka + " Termasuk bilangan ganjil ");
         }
-        
+
     }
 }
