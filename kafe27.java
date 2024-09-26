@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class kafe27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         String menu;
         char ukuranCup;
         int jumlah;
@@ -46,7 +47,6 @@ public class kafe27 {
 
         System.out.println("Item pembelian: " + jumlah +" " + menu + " Dengan ukuran Cup " + ukuranCup);
         System.out.println("Nominal bayar: " + nominalBayar);
-        
     }
     
 }
