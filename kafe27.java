@@ -37,9 +37,11 @@ public class kafe27 {
                 break;
             case 'L':
                 totalHarga += 0.4 * totalHarga;
-                break;
+                default:
+                System.out.println("Ukuran tidak valid bos");
+                return;
         }
-        double diskon = keanggotaan ? 0 : 0.1;
+        double diskon = keanggotaan ? 0.1 : 0;
         double nominalBayar = totalHarga - (diskon * totalHarga);
 
         System.out.println("Item pembelian: " + jumlah +" " + menu + " Dengan ukuran Cup " + ukuranCup);
